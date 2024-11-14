@@ -70,7 +70,6 @@ message SubmitCustomTrainingJobRequest {
   string model_name = 4 [(tagger.v1.tags) = "bson:\"model_name\" json:\"model_name\""];
   string model_version = 5 [(tagger.v1.tags) = "bson:\"model_version\" json:\"model_version\""];
   map<string, string> arguments = 7;
-  string model_framework = 7 [(tagger.v1.tags) = "bson:\"model_framework\" json:\"model_framework\""];
 }
 
 message SubmitCustomTrainingJobResponse {

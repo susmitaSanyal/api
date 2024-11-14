@@ -55,6 +55,7 @@ message PackageInfo {
   PackageType type = 4;
   optional string platform = 7;
   repeated FileInfo files = 5;
+  optional string framework = 8;
   google.protobuf.Struct metadata = 6;
 }
 
